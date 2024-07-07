@@ -4,12 +4,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Kookie IDE</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  Hello world
+  <header>
+    <div id="logocontainer">
+      <img
+        id="logo"
+        src="https://raw.githubusercontent.com/bajpai244/workshopfilehosting/master/hackide/hackclublogo.png"
+        width="60px"
+      />
+    </div>
+    <div id="buttoncontainer">
+      <button onclick="buttonclick()"><b>RUN</b></button>
+    </div>
+  </header>
+  <main>
+    <div id="editor"></div>
+    <iframe src="" id="iframe"> </iframe>
+  </main>
+  <script
+    src="//ajaxorg.github.io/ace-builds/src-min-noconflict/ace.js"
+    type="text/javascript"
+    charset="utf-8"
+  ></script>
   <script src="script.js"></script>
 </body>
 
